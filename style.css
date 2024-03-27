@@ -19,10 +19,14 @@ body {
 }
 
 #login-card {
-    border: 1px solid blue;
-    width: 50%;
-    height: 512px;
-    margin: 0 auto;
+    /* border: 1px solid blue; */
+    max-width: 650px;
+    max-height: 550px;
+    background: #212121;
+    border-radius: 4px;
+    width: 75%;
+    height: 55%;
+    margin: auto auto;
 }
 
 .right-card {
