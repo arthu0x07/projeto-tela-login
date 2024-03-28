@@ -1,3 +1,4 @@
+/*  reseta o css */
 * {
     margin: 0;
     padding: 0;
@@ -9,26 +10,31 @@ body {
 }
 
 #container {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: grid; /* mostra em grades */
+    grid-template-columns: 50% 50%; /* cada grade terá 50% o valor da tela */
 }
 
 .left-card {
     display: flex;
-    align-items: center;
+    align-items: center; /* alinha ao centro */
+    flex-direction: column;
     border: 1px solid red;
-    height: 100vh;
+    height: 100vh; /* toda a tela vertical */
+}
+
+.left-card img {
+    align-self: baseline;
 }
 
 #login-card {
     border: 1px solid blue;
     background: #212121;
-    border-radius: 4px;
-    max-width: 1144px;
-    max-height: 1024px;
-    width: 75%;
-    height: 55%;
-    margin: auto auto;
+    border-radius: 20px; /* arredondamento dos cantos */
+    max-width: 1144px; /* largura maxima */
+    max-height: 1024px; /* altura maxima */
+    width: 75%; /* largura de 75% o tamanho da div pai */
+    height: 55%; /* altura de 55% o tamanho da div pai */
+    margin: auto;
 }
 
 .right-card {
