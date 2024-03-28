@@ -8,22 +8,24 @@ body {
     background: #1A1919;
 }
 
+#container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 
 .left-card {
     display: flex;
     align-items: center;
     border: 1px solid red;
-    width: 50%;
     height: 100vh;
-    float: left;
 }
 
 #login-card {
-    /* border: 1px solid blue; */
-    max-width: 650px;
-    max-height: 550px;
+    border: 1px solid blue;
     background: #212121;
     border-radius: 4px;
+    max-width: 1144px;
+    max-height: 1024px;
     width: 75%;
     height: 55%;
     margin: auto auto;
@@ -31,7 +33,4 @@ body {
 
 .right-card {
     border: 1px solid green;
-    width: 50%;
-    height: 100vh;
-    float: right;
 }
